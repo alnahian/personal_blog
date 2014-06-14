@@ -1,6 +1,6 @@
 <?php
 
-Route::get('/',array('as'=>'index', 'uses'=>'PostController@getIndex'));
+Route::get('/',array('as'=>'index', 'uses'=>'PostsController@getIndex'));
 
 Route::get('/admin', array('as'=>'admin_area','uses'=>'PostsController@getAdmin'));
 
